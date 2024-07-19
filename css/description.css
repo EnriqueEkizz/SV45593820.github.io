@@ -1,0 +1,16 @@
+.description {
+  display: flex;
+  flex: 5;
+}
+
+.description__content{
+  width: 100%;
+}
+
+.description__panel {
+  padding-left: 50px;
+}
+
+.description__panel:nth-child(even) {
+  background-color: #EAEDED;
+}

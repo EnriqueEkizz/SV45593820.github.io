@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex: 2;
+  justify-content: flex-end;
+  border-right: 5px solid;
+}
+
+.header__content {
+  padding-right: 50px;
+}
+
+.header__paragraph {
+  text-align: right;
+  margin-bottom: 40px;
+}
+
+.header__paragraph span{
+  display: block;
+}
