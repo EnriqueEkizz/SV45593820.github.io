@@ -5,6 +5,8 @@
 
 .description__content{
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .description__panel {
@@ -13,4 +15,38 @@
 
 .description__panel:nth-child(even) {
   background-color: #EAEDED;
+}
+
+.description__paragraph {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+}
+
+.description__card {
+  display: flex;
+  margin-top: 25px;
+}
+
+.description__card__icons {
+  padding-right: 8px;
+}
+
+.description__card__content p{
+  margin: 0;
+}
+
+.description__icon {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.cl-blue {
+  color: #3498DB;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
