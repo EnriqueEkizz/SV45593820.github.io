@@ -39,14 +39,32 @@
 }
 
 .description__icon {
-  background-color: black;
+  background-color: #EAEDED;
   width: 20px;
   height: 20px;
   display: block;
 }
 
-.cl-blue {
-  color: #3498DB;
-  font-weight: 600;
-  font-size: 0.9rem;
+.description__dates {
+  color: #3498DB !important;
+}
+
+.description__title-profile {
+  color: #34495E;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.description__titles-md {
+  font-family: "Zain", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.description__titles-sm {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
