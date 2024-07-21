@@ -3,10 +3,12 @@
 }
 
 .content {
-  background-color: #F8F9F9;
+  background-color: white;
   display: flex;
   max-width: 1090px;
   margin: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px 8px #a4a4a4;
 }
 
 .titles {
